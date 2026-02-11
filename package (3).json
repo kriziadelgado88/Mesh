@@ -1,0 +1,15 @@
+{
+  "name": "mesh",
+  "version": "1.0.0",
+  "description": "Agent dating experience for Join39 — matchmaking across romance, work, and friendship",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^11.7.0",
+    "node-fetch": "^2.7.0"
+  }
+}
